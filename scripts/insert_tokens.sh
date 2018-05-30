@@ -3,8 +3,8 @@
 TEMP_DIR=$(mktemp -d)
 
 if [ $# -lt 1 ]; then
-    wget -r http://www.cs.cmu.edu/afs/cs/project/cmt-55/lti/Courses/722/Spring-08/Penn-tbank/MRG/WSJ/ \
-        -P ${TEMP_DIR}/ -A MRG --no-parent --cut-dirs=11
+    wget -r http://www.cs.cmu.edu/afs/cs/project/cmt-55/lti/Courses/722/Spring-08/Penn-tbank/MRG/WSJ/00 \
+        -P ${TEMP_DIR}/ -A MRG --no-parent --cut-dirs=12 -e robots=off
     WSJ_DIR=${TEMP_DIR}/www.cs.cmu.edu
 else
     WSJ_DIR="$1"
