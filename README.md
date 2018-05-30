@@ -3,7 +3,7 @@ UCCA-Annotated Wall Street Journal Sentences
 Version 1.0 (April 8, 2018)
 -----------------------------
 
-This bundle contains 100 sentences annotated according to the [foundational layer of UCCA](https://github.com/huji-nlp/ucca-corpora/tree/master/wiki#xml-format). 
+This bundle contains 100 sentences annotated according to the [foundational layer of UCCA](https://github.com/UniversalConceptualCognitiveAnnotation/UCCA_English-Wiki/tree/master#xml-format). 
 The sentences are from section 00 of the Wall Street Journal corpus.
 The passages are given as XMLs.
 The total number of tokens in this corpus is 2273.
@@ -33,8 +33,8 @@ for regular updates on the UCCA project and available resources.
 
 Files included
 --------------
-- The passages files in an XML format, under [`00/ucca`](00/ucca).
-  File names in `00/ucca` are of the form `wsj_XXX.xml` where XXX 
+- The passages files in an XML format, under [`xml`](xml).
+  File names in `xml` are of the form `wsj_XXX.xml` where XXX 
   is the sentence ID. Please see [the UCCA resource webpage](http://www.cs.huji.ac.il/~oabend/ucca.html) for a software package for reading and using 
   these files.
 - Scripts for manipulating these files, under [`scripts`](scripts).

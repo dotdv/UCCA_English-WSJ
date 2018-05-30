@@ -10,10 +10,7 @@ python:
   - "3.6"
 install:
   - pip install ucca
-env:
-  matrix:
-  - DATASET=00/ucca
 script:
   - scripts/insert_tokens.sh
-  - python -m scripts.validate $DATASET
+  - python -m scripts.validate xml
 
