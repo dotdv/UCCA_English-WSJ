@@ -11,6 +11,6 @@ python:
 install:
   - pip install ucca
 script:
-  - scripts/insert_tokens.sh
+  - scripts/insert_tokens.sh || travis_terminate 1
   - python -m scripts.validate xml
 
