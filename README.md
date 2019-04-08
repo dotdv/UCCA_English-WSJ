@@ -24,7 +24,7 @@ by Omri Abend and Ari Rappoport. The users of this dataset are kindly requested 
       title     = {Multitask Parsing Across Semantic Representations},
       booktitle = {Proc. of ACL},
       year      = {2018},
-      url       = {http://www.cs.huji.ac.il/~danielh/acl2018.pdf}
+      url       = {https://www.aclweb.org/anthology/P18-1035}
     }
 
 Please refer to [our website](http://www.cs.huji.ac.il/~oabend/ucca.html) or email (oabend@cs.huji.ac.il)
