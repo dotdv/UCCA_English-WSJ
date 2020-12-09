@@ -5,7 +5,9 @@ python: 3.6
 cache:
   apt: true
   pip: true
-install: pip install -U ucca
+install:
+  - pip install cython
+  - pip install -U ucca
 env:
   - secure: "LZllo3KjKlLenmuu1BkDaVrk83UZH+t97YvQW0M0n2FH2Pp/yEvkVYYYrJ6PNnxLJrn8vUHkD+jrEd0o70OpxASGCu4VYEz4T38G3+vnQJU14k/ThXbnWJdcl1hzpBl40I7lY0Zs2rDJmbeS/sA8pn2YpjrBoOOZ4Sc2GTyjuCE/NXV5Kkk57X08Y/Kp/HfUdvwA3BgIDZZLgrdMQEBveUrOfZKaG7nbxUHJgs3YksIPaxUH6kicqw2oNuqxuO3BzcWlgwOuqyyboVnaJEdRlWZJ+Xf1/uc6WKSDVGlDg9QztUyNUFTMEEsk5AB8eIya1p3MCMrad1f8UMtc+kTemS0mmCXkLGVVOmhAL4YVoRP4+Cv3SUab6QTbV+aOdkldKYopm5PxhGiUvlreklRZrxWocAb3/hda2UiBgXl94D4kbxNDjYmzzRSQhTWGruogs3DT6qQD25pxA1780jAj7uNE4wELj5rGXJwt4Z6VMQXY24jGkmX8+8S8HgYUljwDoiSxOMpMh/CJpsIp/8guoWlMFIrXPwh4TaDddtdD5rjJeD7g9CR4iXF86bJmxheuM00CdkaxsjH6DQ6kBrKS9+FIBJRsIyk0LlB8xJiNbzNckw+5pH8kzePF/SqhC83FY9LR0Azk0mcivIhR6ux96V1Mo1G5bDeVpwOEavZlpLc="
 before_script: scripts/insert_tokens.sh
